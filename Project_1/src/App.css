@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card {
+  width: 350px;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-8px);
+  background-color:wheat;
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid #e1306c;
+  padding: 4px;
+  object-fit: cover;
+}
+
+.profile-card h2 {
+  margin-top: 15px;
+  color: #262626;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h3 {
+  margin: 0;
+  color: #262626;
+}
+
+.stat p {
+  margin: 5px 0;
+  color: gray;
+}
+
+.status {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #e1306c;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.follow-btn,
+.unfollow-btn {
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.follow-btn {
+  background: #0095f6;
+  color: white;
+}
+
+.follow-btn:hover {
+  background: #0077cc;
+  transform: scale(1.05);
+}
+
+.unfollow-btn {
+  background: #efefef;
+  color: #262626;
+}
+
+.unfollow-btn:hover {
+  background: #dcdcdc;
+  transform: scale(1.05);
+}
+button
+{
+   background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+  margin: 20px;
+  border-radius: 10px;
+}
