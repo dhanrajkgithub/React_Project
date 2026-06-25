@@ -1,14 +1,21 @@
-import React from 'react'
-import'./app.css'
+import React, { useEffect } from 'react'
+import Header from './components/Header'
+import Cards from './components/Cards'
 
 function App() {
+
+  useEffect(() => {
+    console.log("Thank You For Visiting")
+  }, [])
+
   return (
-    <div className="flex justify-center items-center h-screen bg-orange-300">
-      <h1 className="text-4xl font-bold text-blue-500">
-        Hello Tailwind CSS!
-      </h1>
+    <div>
+      <Header />
+      <Cards name="Dhanraj " age={23} gender="male" />
+      <Cards name="Vikas " age={24} gender="male" />
+      <button>See More</button>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

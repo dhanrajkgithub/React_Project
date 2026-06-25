@@ -1,0 +1,10 @@
+.card{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    color: black;
+    display: inline-block;
+}
